@@ -149,6 +149,7 @@
 | <a name="input_model_uuid"></a> [model\_uuid](#input\_model\_uuid) | UUID of an existing Juju model (required when create\_model is false) | `string` | `null` | no |
 | <a name="input_mysql_config"></a> [mysql\_config](#input\_mysql\_config) | Configuration for the mysql-db application | `map(string)` | `{}` | no |
 | <a name="input_mysql_revision"></a> [mysql\_revision](#input\_mysql\_revision) | Revision of the mysql-db application | `number` | `null` | no |
+| <a name="input_mysql_units"></a> [mysql\_units](#input\_mysql\_units) | Number of units of the mysql-db application | `number` | `3` | no |
 | <a name="input_oidc_gatekeeper_config"></a> [oidc\_gatekeeper\_config](#input\_oidc\_gatekeeper\_config) | Configuration for oidc-gatekeeper application | `map(string)` | `{}` | no |
 | <a name="input_oidc_gatekeeper_revision"></a> [oidc\_gatekeeper\_revision](#input\_oidc\_gatekeeper\_revision) | Revision of the oidc-gatekeeper application | `number` | `null` | no |
 | <a name="input_opentelemetry_collector_k8s_config"></a> [opentelemetry\_collector\_k8s\_config](#input\_opentelemetry\_collector\_k8s\_config) | Configuration for the opentelemetry-collector-k8s application | `map(string)` | `{}` | no |
